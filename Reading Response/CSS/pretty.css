@@ -1,0 +1,23 @@
+body{
+	color:grey;
+	font-family: roboto;
+	font-weight: lighter;
+	font-size: 10pt;
+}
+
+h1 {
+	text-align: center;
+	font-family: roboto;
+	color: pink;
+}
+
+.OGtext {
+	text-align: center;
+}
+
+.question {
+	font-family: roboto;
+	font-weight: bold;
+
+
+}
