@@ -1,0 +1,279 @@
+/** Code By Webdevtrick ( https://webdevtrick.com ) **/
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: Helvetica;
+	color: #fff;
+	background: linear-gradient(-45deg, #389466, #ffccff, #389466);
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 35s ease infinite;
+	        animation: gradientBG 35s ease infinite;
+}
+
+	.letter {
+
+        		width:420px; /*resize as you see fit */
+        		height:420px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:3px solid transparent; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+
+        	.letter div {
+        		position:absolute;
+        	}
+
+.container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	text-align: left;
+}
+h1 {
+	font-weight: 900;
+}
+
+
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.title-what {
+	text-align: center;
+
+
+}
+
+
+ /* LETTER R */
+
+  .letter-r {
+        height:320px;
+        width:200px;
+    }
+
+    .r-straight {
+    background:black;
+    width: 35px;
+    height: 320px;
+}
+
+    .r-topcurve {
+        background:black;
+        width:200px;
+        height:200px;
+        top:0px;
+        left:0;
+        border-radius:100px;
+    }
+
+    .r-topcurvebox {
+        background:black;
+        width:70px;
+        height:200px;
+        top: 0px;
+        left:30px;
+    }
+
+     .r-inside-topcurve {
+        box-shadow: 0px 130px 0px 135px ;
+        width:130px;
+        height:135px;
+        top:32px;
+        left:35px;
+        border-radius:75px;
+    }
+
+    .r-inside-topcurvebox {
+        background:white;
+        width:70px;
+        height:135px;
+        top:32px;
+        left:35px;
+    }
+
+    .r-thing {
+       background: black;
+      width: 40px;
+      height: 170px;
+      left: 93px;
+      top:150px;
+      transform: skew(33deg);
+    }
+
+ /* LETTER I */
+
+.letter-i {
+    height:320px;
+    width:190px;
+}
+
+
+.i-straight {
+    background: black;
+    height: 320px;
+    width: 35px;
+    left:80px;
+}
+
+/* LETTER S */
+
+.letter-s {
+    height:320px;
+    width:180px;
+}
+
+.s-topcurve {
+    background: black;
+    width:175px;
+    height:175px;
+    border-radius:87.5px;
+}
+
+.s-inside-topcurve {
+    background:white;
+    width:105px;
+    height:105px;
+    border-radius:52.5px;
+    left:35px;
+    top: 35px;
+}
+
+
+.s-bottomcurve {
+    background: black;
+    width:180px;
+    height:180px;
+    border-radius:90px;
+    top:140px;
+}
+
+.s-inside-bottomcurve {
+    background:white;
+    width:110px;
+    height:110px;
+    border-radius:55px;
+    left:35px;
+    top: 175px;
+}
+
+.s-topcutout {
+    background: white;
+    width:100px;
+    height:130px;
+    transform: rotate(65deg);
+    left: 100px;
+    top:47px;
+}
+
+.s-bottomcutout {
+    background:white;
+    width:40px;
+    height:80px;
+    transform: rotate(65deg);
+    top:190px;
+    left: 10px;
+}
+
+.s-bottomboxcutout {
+    background:white;
+    width:62px;
+    height:72px;
+    top: 167px;
+    left:1px;
+    transform: rotate(40deg);
+}
+
+.s-bottomboxcutout2 {
+    background:white;
+    width:50px;
+    height:50px;
+    top:168px;
+    left: 25px;
+    transform: rotate(18deg);
+}
+
+.s-bottomboxcutout3 {
+    background:white;
+    width: 30px;
+    height:30px;
+    top:173px;
+    left:61px;
+    transform: rotate(8deg);
+}
+
+.s-bottomboxcutout4 {
+    background: white;
+    width:30px;
+    height:30px;
+    top:160px;
+    left:20px;
+    transform: rotate(28deg);
+}
+
+
+/* LETTER D */
+
+ .letter-d {
+        height:320px;
+        width:245px;
+
+    }
+
+    .d-straight {
+        background:black;
+        width: 85px;
+        height:320px;
+        top:0px;
+        left: 0px;
+    }
+
+    .d-curve {
+        height:90px;
+         width:45px;
+        border-radius: 0 90px 90px 0;
+        background:black;   
+        left:140px;
+        top: 115px;
+         transform:scale(3.557);
+    }
+
+    .d-insidecurve {
+        height:90px;
+         width:45px;
+        border-radius: 0 90px 90px 0;
+        background:white;   
+        left:120px;
+        top: 115px;
+         transform:scale(2.8);
+    }
+
+    .d-insidebox {
+        background:white;
+        width: 50px;
+        height:252px;
+        top:34px;
+        left:35px;
+    }
+
