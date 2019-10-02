@@ -6,13 +6,13 @@ body{
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 	font-family: roboto;
 	color: pink;
 }
 
 .OGtext {
-	text-align: center;
+	text-align: left;
 }
 
 .question {
@@ -20,4 +20,8 @@ h1 {
 	font-weight: bold;
 
 
+}
+
+p {
+	width: 600px;
 }
