@@ -1,0 +1,316 @@
+
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+    font-size: 62.5%;
+  height: 100%;
+  background-color: white;
+   }
+ 
+html body {
+    height: 100%;
+    overflow-x: hidden; }
+    html body .wrapper {
+      height: 100%; }
+
+
+.html {
+  width: 100%;
+  overflow: none;
+  position: relative; }
+
+.circle {
+  height:50px;
+  width: 50px;
+  border-radius: 100%;
+  position:fixed;
+  background: blue;
+  left: 300px;
+  top: 300px;
+}
+
+.lightSwitch {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #222;
+  height: 57px;
+  width: 120px;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s; }
+
+.turntOff {
+  background: white; }
+
+.toggle {
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  top: 10px;
+  left: 12px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+  background-color: magenta; }
+
+.off:before {
+  content: "HIDE";
+  position: absolute;
+  font-family: sans-serif;
+  top: 4.5px;
+  left: 50px;
+  color: magenta;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+   }
+
+.on {
+  left: 70px;
+  background: magenta; }
+
+.on:before {
+  content: "SEEK";
+  color: magenta;
+  position: absolute;
+  left: -50px;
+  top: 4.5px;
+  font-family: sans-serif;
+  -webkit-animation: fadeIn 0.3s;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  }
+
+
+/* cursor */
+.show {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(300, 228, 175, 0.1);
+  border-radius: 100%;
+  box-sizing: none;
+  pointer-events: none; }
+
+
+
+.alienStep {
+  -webkit-animation: walkLeft .2s steps(2) infinite;
+  background: url('../images/pinkAlien.png') 0 0;
+  width: 108px;
+  height: 96px; }
+
+.holder {
+  -webkit-animation: moveAlien 15s linear infinite;
+  width: 108px;
+  height: 96px;
+  position: fixed; 
+}
+
+
+
+.alienSurprise {
+  width: 108px;
+  height: 96px;
+  background: url('../images/pinkAlien.png') 108px 0; }
+
+.paused {
+  -webkit-animation-play-state: paused; }
+
+@-webkit-keyframes walkLeft {
+  0% {
+    background-position: 320px 0; }
+
+  100% {
+    background-position: 108px 0; } }
+
+@-webkit-keyframes moveAlien {
+  0% {
+    left: -10%; }
+
+  49% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg); }
+
+  50% {
+    left: 100%;
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg); }
+
+  99% {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg); }
+
+  100% {
+    left: -10%;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg); } }
+
+
+/*===================================*/
+
+/* His alien family pulls up */
+
+.a {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;    
+}
+
+.b {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.c {
+top: -200px;
+transition: ease-out; 
+position:fixed;   
+}
+
+.d {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed; 
+}
+
+.e {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;  
+}
+
+.f {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.g {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;    
+}
+
+.h {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.i {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.j {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed; 
+}
+
+.k {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;  
+}
+
+.l {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.m {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;    
+}
+
+.n {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.o {
+top: -200px;
+transition: ease-out; 
+position:fixed;   
+}
+
+.p {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed; 
+}
+
+.q {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;  
+}
+
+.r {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.s {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;    
+}
+
+.t {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.u {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.v {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed; 
+}
+
+.w {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;  
+}
+
+.x {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
+
+.y {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;  
+}
+
+.z {
+top: -200px;
+transition: ease-out , ease-in; 
+position:fixed;   
+}
