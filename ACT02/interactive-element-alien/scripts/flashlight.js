@@ -1,5 +1,3 @@
-
-
 $(function() {
 	$('body').flashlight(200, 0.75, true);
 	
@@ -114,6 +112,7 @@ $(document).ready(function(){
 });
 
 
+
 function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
@@ -145,7 +144,7 @@ function animateDiv(myclass){
 
 
 
-//Randomize position of Alien
+//Randomize position of first Alien
 $(document).ready(function(){
 	moveRandomly();
 })
@@ -168,5 +167,17 @@ $(".holder").css({
 
 
 
+
+//Exploding Aliens lol
+ $(document).ready(function(){
+
+    $("img").click(function(){
+        $(this).attr("src", "images/explode.gif");
+        $(this).delay(1000).fadeOut(500); 
+    });    
+});
+
+
+          
 
 

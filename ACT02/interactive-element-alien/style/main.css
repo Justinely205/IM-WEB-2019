@@ -75,7 +75,7 @@ html body {
 
 .on:before {
   content: "";
-  color: magenta;
+  color: transparent;
   position: absolute;
   left: -50px;
   top: 4.5px;
