@@ -57,7 +57,7 @@ html body {
   background-color: magenta; }
 
 .off:before {
-  content: "HIDE";
+  content: "";
   position: absolute;
   font-family: sans-serif;
   top: 4.5px;
@@ -74,7 +74,7 @@ html body {
   background: magenta; }
 
 .on:before {
-  content: "SEEK";
+  content: "";
   color: magenta;
   position: absolute;
   left: -50px;
