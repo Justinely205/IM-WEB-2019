@@ -1,3 +1,5 @@
+//Flashlight effect & running alien basic code from jqeury
+
 $(function() {
 	$('body').flashlight(200, 0.75, true);
 	
@@ -81,6 +83,7 @@ $(document).ready(function(){
     $(".holder").click(function(){
     $(this).fadeOut();
     $('.show').css({ boxShadow: '0 0 0'});
+    $('.ufo').get(0).play();
     animateDiv('.a');
     animateDiv('.b');
     animateDiv('.c');
@@ -110,6 +113,7 @@ $(document).ready(function(){
     })
 });
 
+
 function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
@@ -132,6 +136,7 @@ function animateDiv(myclass){
 
     });
 };
+
 
 
 	}); // end lightSwitch click
@@ -159,7 +164,6 @@ $(".holder").css({
 })
  }, 2000);
 }
-
 
 
 
