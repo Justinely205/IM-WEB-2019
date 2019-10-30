@@ -1,4 +1,4 @@
-//Flashlight effect & running alien basic code from jqeury
+//basic flashlight & figure running code form jquery
 
 $(function() {
 	$('body').flashlight(200, 0.75, true);
