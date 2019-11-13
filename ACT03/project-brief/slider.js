@@ -18,7 +18,7 @@ $('.btn-next').on( 'click', function() {
   $gallery2.flickity('next');
 });
 
-$(document).ready(function(){
+//$(document).ready(function(){
 $('#inspo').click(function(){
   window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/inspo.html");
 });
@@ -29,4 +29,4 @@ $('#research').click(function(){
 
 
 
-})
+//})
