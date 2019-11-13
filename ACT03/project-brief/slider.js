@@ -19,14 +19,16 @@ $('.btn-next').on( 'click', function() {
 });
 
 //$(document).ready(function(){
+$('#inspo').click(function(){
+  window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/inspo.html");
+});
 
+$('#research').click(function(){
+  window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/research.html");
+});
 
-//$('#research').click(function(){
-  //window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/research.html");
-//});
-
-//$('#asset').click(function(){
- // window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/assets.html");
-//});
+$('#asset').click(function(){
+  window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/assets.html");
+});
 
 //})
