@@ -27,8 +27,6 @@ $('#research').click(function(){
   window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/research.html");
 });
 
-$('#asset').click(function(){
-  window.open("https://www.google.com/");
-});
+
 
 })
