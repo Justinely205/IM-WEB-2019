@@ -19,9 +19,12 @@ $('.btn-next').on( 'click', function() {
 });
 
 $(document).ready(function(){
-$('#bag').click(function(){
-  window.open("https://www.youtube.com/");
+$('#inspo').click(function(){
+  window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/inspo.html");
 });
 
+$('#research').click(function(){
+  window.open("https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/research.html");
+});
 
 })
