@@ -9,13 +9,13 @@
 
 $(document).ready(function(){
   $(".act1").click(function(){
-    window.open('https://justinely205.github.io/IM-WEB-2019/ACT02/interactive-element-alien/index.html');
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT03/youtube/index.html');
   });
 });
 
 $(document).ready(function(){
   $(".act2").click(function(){
-    window.open('https://justinely205.github.io/IM-WEB-2019/ACT02/reading-response/reading-response.html');
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT03/rabbithole/index.html');
   });
 });
 
