@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".act2").click(function(){
-    window.open('https://justinely205.github.io/IM-WEB-2019/ACT01/Reading-Response/reading-response.html');
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT02/reading-response/reading-response.html');
   });
 });
 
