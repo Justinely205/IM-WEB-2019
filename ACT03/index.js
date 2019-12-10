@@ -22,13 +22,13 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $(".act3").click(function(){
-    window.open('https://justinely205.github.io/IM-WEB-2019/ACT01/web-poster/index.html');
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT03/reading-response3/reading-response3.html');
   });
 });
 
 $(document).ready(function(){
   $(".act4").click(function(){
-    window.open('https://justinely205.github.io/IM-WEB-2019/ACT01/tableau/index.html');
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT03/project-brief/index.html');
   });
 });
 
