@@ -1,5 +1,5 @@
 html, body {
-	overflow: hidden;
+	overflow-X: hidden;
 	margin: 0;
 	padding: 0;
 	font-family: helvetica, sans-serif;
@@ -60,11 +60,12 @@ a:hover + #heartDiv {
 line-height: 110%;
 font-size: 8vw;
 transition: transform .1s;
+background:rgba(0, 0, 0, 0);
 }
-.act1:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+.act1:hover{
+	color:white;
+    background:rgba(0, 0, 0, 1);
+    filter:alpha(opacity=80); /* For IE8 and earlier */ 
 }
 
 
@@ -72,39 +73,44 @@ transition: transform .1s;
 line-height: 100%;
 font-size: 8vw;
 letter-spacing: -4px;
+background:rgba(0, 0, 0, 0);
 }
 
-.act2:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+.act2:hover{
+	color:white;
+    background:rgba(0, 0, 0, 1);
+    filter:alpha(opacity=80); /* For IE8 and earlier */ 
 }
+
 
 
 .act3 {
 line-height: 100%;
 font-size: 8vw;
-width: 75%;
+width: 100%;
+letter-spacing: -4px;
+background:rgba(0, 0, 0, 0);
  
 }
 
-.act3:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+.act3:hover{
+	color:white;
+    background:rgba(0, 0, 0, 1);
+    filter:alpha(opacity=80); /* For IE8 and earlier */ 
 }
 
 .act4 {
 line-height: 100%;
 font-size: 8vw;
-width: 75%;
+width: 100%;
+background:rgba(0, 0, 0, 0);
  
 }
 
-.act4:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+.act4:hover{
+	color:white;
+    background:rgba(0, 0, 0, 1);
+    filter:alpha(opacity=80); /* For IE8 and earlier */ 
 }
 
 #info {

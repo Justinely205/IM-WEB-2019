@@ -1,0 +1,138 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;*/
+  min-height:100%;
+}
+
+body{
+  background-color: black;
+/*background-image: url(img/bg.gif);
+ /* color: #fff;
+ /* background: radial-gradient(ellipse at bottom, #1C2837 0%, #050608 100%); 
+  background-attachment: fixed;*/
+font-family: "arial", "sans-serif"; 
+font-size: 9pt;
+font-weight: lighter;
+color: white;
+cursor: crosshair;
+
+background: linear-gradient(226deg, #64d4b7, #ca97ec);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 27s ease infinite;
+animation: AnimationName 27s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:71% 0%}
+    50%{background-position:30% 100%}
+    100%{background-position:71% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:71% 0%}
+    50%{background-position:30% 100%}
+    100%{background-position:71% 0%}
+}
+}
+
+
+* {
+  margin:0;
+  padding:0;
+}
+
+a:link {
+color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color:blue;
+}
+
+
+#container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  top:20%;
+ 
+
+  //border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img .slide {
+  display: block;
+  position: absolute;
+  height:100% !important;
+  width: 100% !important;
+
+}
+
+/*Horizontal scrolly */
+
+#page-wrap {
+  width:500%; /* 100% x length of panel */
+  height:100%;
+  overflow:hidden;
+}
+
+.panel {
+  width:20%; /* 100% / length of panel */
+  float:left;
+  height:100%;
+}
+
+.panel .inner {
+  padding:2em;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+h2 {
+  font-weight:bold;
+  font-size:200%;
+  margin:0 0 1em;
+}
+
+p {margin:1.5em 0}
+
+#panel-1 {
+  background-color:transparent;
+  color:white;
+}
+
+#panel-2 {
+  background-color:transparent;
+  color:yellow;
+}
+
+#panel-3 {
+  background-color:darkblue;
+  color:lightgreen;
+}
+
+#panel-4 {
+  background-color:pink;
+  color:brown;
+}
+
+#panel-5 {
+  background-color:darkred;
+  color:cyan;
+}
+
