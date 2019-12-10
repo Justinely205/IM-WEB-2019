@@ -15,6 +15,18 @@ function hide(){
 
 $(document).ready(function(){
   $(".act1").click(function(){
-    window.open('google.com');
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT01/index.html');
+  });
+});
+
+$(document).ready(function(){
+  $(".act2").click(function(){
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT02/index.html');
+  });
+});
+
+$(document).ready(function(){
+  $(".act3").click(function(){
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT03/index.html');
   });
 });
