@@ -9,7 +9,7 @@
 
 $(document).ready(function(){
   $(".act1").click(function(){
-    window.open('https://justinely205.github.io/IM-WEB-2019/ACT01/CSS-typeface/css-typeface.html');
+    window.open('https://justinely205.github.io/IM-WEB-2019/ACT02/interactive-element-alien/index.html');
   });
 });
 

@@ -1,5 +1,5 @@
 body{
-	color:grey;
+	color:black;
 	font-family: roboto;
 	font-weight: ;
 	font-size: 10pt;
@@ -8,7 +8,7 @@ body{
 h1 {
 	text-align: left;
 	font-family: roboto;
-	color: pink;
+	color: blue;
 }
 
 .OGtext {
